@@ -6,23 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "vasu.dev",
+    template: "%s | vasu.dev",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Part-time developer, full-time nerd.",
   openGraph: {
-    title: "chronark.com",
+    title: "vasu.dev",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+      "Part-time developer, full-time nerd.",
+    url: "https://vverma-portfolio.vercel.app",
+    siteName: "vasu.dev",
     locale: "en-US",
     type: "website",
   },
@@ -37,12 +30,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
-  },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/logo.png",
   },
 };
 const inter = Inter({
