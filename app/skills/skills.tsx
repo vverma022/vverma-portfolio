@@ -12,7 +12,7 @@ type SkillProps = {
   export const Skills: React.FC<SkillProps> = ({ skill }) => {
     return (
       <Link href={`${skill.tech}`}>
-        <article className="p-4 md:p-8 group flex items-center gap-4 border border-zinc-800 rounded-lg hover:border-zinc-600 transition">
+        <article className="p-4 md:p-8 group flex items-center gap-4  border-zinc-800 rounded-lg hover:border-zinc-600 transition">
           <img
             src={skill.logo}
             alt={`${skill.title} logo`}

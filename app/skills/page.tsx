@@ -2,6 +2,7 @@ import React from "react";
 import { Navigation } from "../components/nav";
 import { Skills } from "./skills";
 import { skills } from "content/skills/skills-list";
+import { Card } from "../components/card";
 
 export default function SkillsPage() {
   return (
@@ -18,7 +19,9 @@ export default function SkillsPage() {
       </div>
       <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-3 md:grid-cols-2">
         {skills.map((skill) => (
+          <Card key={skill.title}>
           <Skills key={skill.title} skill={skill} />
+          </Card>
         ))}
       </div>
     </div>
