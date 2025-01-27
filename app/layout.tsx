@@ -74,6 +74,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
+     <meta name="title" content="Vasu.dev" />
+     <meta name="description" content="Part time developer, Full time nerd" />
+     <meta name="keywords" content="vasu,portfolio,vasu verma,software engineer,portfolio-website" />
+     <meta name="robots" content="index, follow" />
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="language" content="English" />
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
