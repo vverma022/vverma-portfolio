@@ -13,12 +13,26 @@ export const metadata: Metadata = {
   description: "Part-time developer, full-time nerd.",
   openGraph: {
     title: "vasu.dev",
-    description:
-      "Part-time developer, full-time nerd.",
+    description: "Part-time developer, full-time nerd.",
     url: "https://vverma-portfolio.vercel.app",
     siteName: "vasu.dev",
     locale: "en-US",
     type: "website",
+    images: [
+      {
+        url: "/logo1.png", // Path to the Open Graph image
+        width: 1200,    // Recommended dimensions
+        height: 630,
+        alt: "vasu.dev - Part-time developer, full-time nerd.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image", // Use "summary" or "summary_large_image"
+    title: "vasu.dev",
+    description: "Part-time developer, full-time nerd.",
+    images: ["/logo1.png"], // Same image for consistency
+    creator: "@vasiuuuu_", // Optional: Add your Twitter handle
   },
   robots: {
     index: true,
@@ -32,9 +46,11 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    shortcut: "/logo.png",
+    shortcut: "/logo.png", // Favicon or shortcut icon
   },
+  themeColor: "#000000", // Specify your brand color
 };
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
