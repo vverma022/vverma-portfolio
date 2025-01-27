@@ -21,18 +21,18 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/logo1.png", // Path to the Open Graph image
-        width: 1200,    // Recommended dimensions
+        width: 1200,
         height: 630,
         alt: "vasu.dev - Part-time developer, full-time nerd.",
       },
     ],
   },
   twitter: {
-    card: "summary_large_image", // Use "summary" or "summary_large_image"
+    card: "summary_large_image",
     title: "vasu.dev",
     description: "Part-time developer, full-time nerd.",
     images: ["/logo1.png"], // Same image for consistency
-    creator: "@vasiuuuu_", // Optional: Add your Twitter handle
+    creator: "@vasiuuuu_", // Replace with your Twitter handle
   },
   robots: {
     index: true,
@@ -46,9 +46,14 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    shortcut: "/logo.png", // Favicon or shortcut icon
+    shortcut: "/logo.png", // Standard favicon for URL bar
+    icon: [
+      { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" }, // High-resolution
+      { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" }, // Standard
+    ],
+    apple: "/logo.png", // For Apple devices
   },
-  themeColor: "#000000", // Specify your brand color
+  themeColor: "#000000", // Browser theme color for mobile
 };
 
 const inter = Inter({
