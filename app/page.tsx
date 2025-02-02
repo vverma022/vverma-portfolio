@@ -6,7 +6,8 @@ import Image from "next/image";
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
-  {name: "Skills", href:"/skills"}
+  {name: "Skills", href:"/skills"},
+  {name: "Resume", href:"https://drive.google.com/file/d/1j7EO-sc08cQqqcmqsr4Eb64wXlr3MPVy/view"}
 ];
 
 export default function Home() {
