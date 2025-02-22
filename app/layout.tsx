@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    shortcut: "/logo1.png", // Standard favicon for URL bar
+    shortcut: "/favicon.png", // Standard favicon for URL bar
     icon: [
       { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" }, // High-resolution
       { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" }, // Standard
